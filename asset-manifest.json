@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Nola-Dev/static/css/main.9b18989d.css",
+    "main.js": "/Nola-Dev/static/js/main.826885d0.js",
+    "static/media/Nola.png": "/Nola-Dev/static/media/Nola.89752aa92769fb335a9a.png",
+    "static/media/Nolablack.png": "/Nola-Dev/static/media/Nolablack.8ccf7af0539b4d94dcb0.png",
+    "index.html": "/Nola-Dev/index.html",
+    "main.9b18989d.css.map": "/Nola-Dev/static/css/main.9b18989d.css.map",
+    "main.826885d0.js.map": "/Nola-Dev/static/js/main.826885d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b18989d.css",
+    "static/js/main.826885d0.js"
+  ]
+}
