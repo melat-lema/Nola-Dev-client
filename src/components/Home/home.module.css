@@ -1,0 +1,85 @@
+.outer__container{
+  display:flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  overflow-y: hidden;
+}
+.inner__container{
+  display: flex;
+  padding-top: 70px;
+  padding-bottom: 60px;
+  padding-left: 60px;
+  gap:60%;
+  font: 1em cursive ;
+}
+.inner__container a button{
+  border: none;
+  background: #5271ff;
+  border-radius: 5px;
+  padding: 1px 9px;
+  height: 40px;
+  cursor: pointer;
+}
+.inner__container button:hover{
+  background-color: blue;
+}
+.inner__container h3{
+  color: purple;
+}
+.list__container{
+  padding-left: 70px;
+
+}
+.list__container hr{
+  width: 90%;
+  margin: 10px 0;
+  /* margin-left: 70px; */
+  color: lightgray;
+ }
+.list__container a{
+  font: 1em cursive ;
+  text-decoration: none;
+  color: black;
+  
+}
+.flexy__container{
+  display: flex;
+  flex-direction: row;
+  /* gap: 100px; */
+  justify-content:space-between;
+}
+.data__container h6{
+  font-size: 20px;
+  
+  padding-left:18px;
+  align-items: center;
+  justify-content: center;
+}
+
+.data__container{
+  display: flex;
+  flex-direction: column;
+}
+.title__container{
+  align-items: center;
+  justify-items: center;
+  padding-top: 40px;
+  margin-left: -50%;
+}
+.arrow__container{
+ 
+  /* justify-content:space-evenly; */
+  padding-top: 30px;
+
+  margin-right: 10%;
+}
+@media screen and (max-width: 900px){
+
+  .title__container{
+    align-items: center;
+    justify-items: center;
+    padding-top: 40px;
+    margin-left: 0%;
+  }
+  
+}
